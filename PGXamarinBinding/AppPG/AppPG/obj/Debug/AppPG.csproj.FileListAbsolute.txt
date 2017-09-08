@@ -1,0 +1,15 @@
+C:\test projects\PGBind\AppPG\AppPG\bin\Debug\AppPG.dll
+C:\test projects\PGBind\AppPG\AppPG\bin\Debug\AppPG.pdb
+C:\test projects\PGBind\AppPG\AppPG\bin\Debug\Xamarin.Forms.Core.dll
+C:\test projects\PGBind\AppPG\AppPG\bin\Debug\Xamarin.Forms.Platform.dll
+C:\test projects\PGBind\AppPG\AppPG\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\test projects\PGBind\AppPG\AppPG\bin\Debug\Xamarin.Forms.Core.pdb
+C:\test projects\PGBind\AppPG\AppPG\bin\Debug\Xamarin.Forms.Core.xml
+C:\test projects\PGBind\AppPG\AppPG\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\test projects\PGBind\AppPG\AppPG\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\test projects\PGBind\AppPG\AppPG\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\test projects\PGBind\AppPG\AppPG\obj\Debug\AppPG.csprojResolveAssemblyReference.cache
+C:\test projects\PGBind\AppPG\AppPG\obj\Debug\AppPG.MainPage.xaml.g.cs
+C:\test projects\PGBind\AppPG\AppPG\obj\Debug\AppPG.App.xaml.g.cs
+C:\test projects\PGBind\AppPG\AppPG\obj\Debug\AppPG.dll
+C:\test projects\PGBind\AppPG\AppPG\obj\Debug\AppPG.pdb

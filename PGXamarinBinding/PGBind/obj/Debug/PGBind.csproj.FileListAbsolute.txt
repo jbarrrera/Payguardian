@@ -1,0 +1,4 @@
+C:\test projects\PGBind\PGBind\bin\Debug\PGBind.dll
+C:\test projects\PGBind\PGBind\bin\Debug\PGBind.pdb
+C:\test projects\PGBind\PGBind\obj\Debug\PGBind.dll
+C:\test projects\PGBind\PGBind\obj\Debug\PGBind.pdb

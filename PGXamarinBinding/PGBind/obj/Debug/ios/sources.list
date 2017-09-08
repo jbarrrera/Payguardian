@@ -1,0 +1,6 @@
+obj\Debug\ios\ObjCRuntime\Messaging.g.cs
+obj\Debug\ios\PGBind\DoIt.g.cs
+obj\Debug\ios\PGBind\FPGWrapper.g.cs
+obj\Debug\ios\PGBind\FPGWRequest.g.cs
+obj\Debug\ios\PGBind\FPGWResponse.g.cs
+obj\Debug\ios\PGBind\uniMag.g.cs

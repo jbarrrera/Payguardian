@@ -1,0 +1,92 @@
+2017-09-05 18:42:41.650058-0500 PayGuardianTest[1399:1607975] FPGWrapper.ProcessRequest:Response
+2017-09-05 18:42:43.887850-0500 PayGuardianTest[1399:1607975] DoIt.ProcessCardRequest:ResponsePtr
+2017-09-05 18:42:43.890775-0500 PayGuardianTest[1399:1607975] DoIt.DumpPGRequest
+2017-09-05 18:42:43.890998-0500 PayGuardianTest[1399:1607975]   TenderType   : CREDIT
+2017-09-05 18:42:43.891140-0500 PayGuardianTest[1399:1607975]   TransType    : sale
+2017-09-05 18:42:43.891280-0500 PayGuardianTest[1399:1607975]   TerminalType : RBA
+2017-09-05 18:42:43.891384-0500 PayGuardianTest[1399:1607975]   IndustryType : RE
+2017-09-05 18:42:43.891484-0500 PayGuardianTest[1399:1607975]   Disable EMV  : No
+2017-09-05 18:42:43.891583-0500 PayGuardianTest[1399:1607975]   TestMode     : Yes
+2017-09-05 18:42:43.891679-0500 PayGuardianTest[1399:1607975]   PnRefNum     : (null)
+2017-09-05 18:42:43.892100-0500 PayGuardianTest[1399:1607975]   Amount       : 5
+2017-09-05 18:42:43.892466-0500 PayGuardianTest[1399:1607975]   Tip Amount   : 1
+2017-09-05 18:42:43.892579-0500 PayGuardianTest[1399:1607975]   CashBackAmt  : (null)
+2017-09-05 18:42:43.892682-0500 PayGuardianTest[1399:1607975]   TransactionID: 1234
+2017-09-05 18:42:43.892781-0500 PayGuardianTest[1399:1607975]   ExpireDate   : (null)
+2017-09-05 18:42:43.892876-0500 PayGuardianTest[1399:1607975]   PmtAcctNumber: (null)
+2017-09-05 18:42:43.893000-0500 PayGuardianTest[1399:1607975]   UserName     : paulpgtest
+2017-09-05 18:42:43.893101-0500 PayGuardianTest[1399:1607975]   Password     : 57!sE@3Fm
+2017-09-05 18:42:43.893309-0500 PayGuardianTest[1399:1607975]   Merchant Code: 682000
+2017-09-05 18:42:43.893425-0500 PayGuardianTest[1399:1607975]   MerchAcctCode: 682001
+2017-09-05 18:42:43.893526-0500 PayGuardianTest[1399:1607975]   token        : (null)
+2017-09-05 18:42:43.893624-0500 PayGuardianTest[1399:1607975]   ShippingAddrs: (null)
+2017-09-05 18:42:45.496788-0500 PayGuardianTest[1399:1607975] DoIt strong self = 0x170280c30
+2017-09-05 18:42:45.496987-0500 PayGuardianTest[1399:1607975] DoIt weak   self = 0x170280c30
+2017-09-05 18:42:45.499715-0500 PayGuardianTest[1399:1607975]  => ProcLoop Ctrl(2): 42(limVal); 7 mins at 10 sec intervals
+2017-09-05 18:42:45.500225-0500 PayGuardianTest[1399:1608021] DoIt weak   self = 0x170280c30
+2017-09-05 18:42:45.500630-0500 PayGuardianTest[1399:1608021] RunOnCompletion
+2017-09-05 18:42:45.500738-0500 PayGuardianTest[1399:1608021] New paymentRequestValidator
+2017-09-05 18:42:45.501120-0500 PayGuardianTest[1399:1608021] Validating request
+2017-09-05 18:42:45.501568-0500 PayGuardianTest[1399:1608021] setting callbacks
+2017-09-05 18:42:45.501711-0500 PayGuardianTest[1399:1608021] Calling process request
+2017-09-05 18:42:45.501811-0500 PayGuardianTest[1399:1608021] In process request
+2017-09-05 18:42:45.502418-0500 PayGuardianTest[1399:1608021] mapped entity
+2017-09-05 18:42:45.502545-0500 PayGuardianTest[1399:1608021] Start device
+2017-09-05 18:42:45.502645-0500 PayGuardianTest[1399:1608021] Device is: RBA
+2017-09-05 18:42:45.502748-0500 PayGuardianTest[1399:1608021] Device Type is RBA
+2017-09-05 18:42:45.503292-0500 PayGuardianTest[1399:1608021] Starting RBA
+2017-09-05 18:42:45.504699-0500 PayGuardianTest[1399:1608021] Set isEMV = NO
+2017-09-05 18:42:45.505489-0500 PayGuardianTest[1399:1608021] waitingForRequestToBridgeComm
+2017-09-05 18:42:45.505701-0500 PayGuardianTest[1399:1608021] voidingFailedTransaction = NO
+2017-09-05 18:42:45.505801-0500 PayGuardianTest[1399:1608021] call activateCardReader
+2017-09-05 18:42:45.505896-0500 PayGuardianTest[1399:1608021] Activate card reader
+2017-09-05 18:42:45.505981-0500 PayGuardianTest[1399:1608021] Set state waiting for card
+2017-09-05 18:42:45.506083-0500 PayGuardianTest[1399:1608021] Status: Waiting for Card
+2017-09-05 18:42:45.506181-0500 PayGuardianTest[1399:1608021] RBA activateCardReader
+2017-09-05 18:42:45.531333-0500 PayGuardianTest[1399:1608021] call requestCardRead
+2017-09-05 18:42:45.531379-0500 PayGuardianTest[1399:1608021] requestCardRead
+2017-09-05 18:42:45.531414-0500 PayGuardianTest[1399:1608021] Tender type is credit request msr or chip
+2017-09-05 18:42:49.879220-0500 PayGuardianTest[1399:1608090] requestCardRead
+2017-09-05 18:42:49.879309-0500 PayGuardianTest[1399:1608091] EMVTransactionConfirmed
+2017-09-05 18:42:49.879391-0500 PayGuardianTest[1399:1608090] Tender type is credit request msr or chip
+2017-09-05 18:42:49.879438-0500 PayGuardianTest[1399:1608091] Confirmation error tag
+2017-09-05 18:42:49.879866-0500 PayGuardianTest[1399:1608091] Status: Card Read with Error
+2017-09-05 18:42:55.282384-0500 PayGuardianTest[1399:1608090] Status: Reading Card
+2017-09-05 18:42:55.501494-0500 PayGuardianTest[1399:1607975]   -- in Wait Loop  (0 of 42)...
+2017-09-05 18:43:05.502997-0500 PayGuardianTest[1399:1607975]   -- in Wait Loop  (1 of 42)...
+2017-09-05 18:43:08.532664-0500 PayGuardianTest[1399:1608021] Status: Waiting for Gateway
+2017-09-05 18:43:08.540629-0500 PayGuardianTest[1399:1608021] PHJlcXVlc3RIZWFkZXI+PENsaWVudElkZW50aWZpZXI+U09BUDwvQ2xpZW50SWRlbnRpZmllcj48UmVxdWVzdFR5cGU+MDA0PC9SZXF1ZXN0VHlwZT48VHJhbnNhY3Rpb25JRD4xMjM0PC9UcmFuc2FjdGlvbklEPjxSZXF1ZXN0RGF0ZVRpbWU+MjAxNy0wOS0wNVQxODo0MzowODwvUmVxdWVzdERhdGVUaW1lPjxVc2VyPnBhdWxwZ3Rlc3Q8L1VzZXI+PFBhc3N3b3JkPjU3IXNFQDNGbTwvUGFzc3dvcmQ+PHJlcXVlc3RNZXNzYWdlPjxUcmFuc0luZHVzdHJ5VHlwZT5SRTwvVHJhbnNJbmR1c3RyeVR5cGU+PFRyYW5zQ2F0Q29kZT5CPC9UcmFuc0NhdENvZGU+PEN1cnJlbmN5Q29kZT5VU0Q8L0N1cnJlbmN5Q29kZT48RU1WVGFncz40RjA3QTAwMDAwMDAwMzEwMTA1MDBCNTY0OTUzNDEyMDQzNTI0NTQ0NDk1NDU3MTE0NzYxNzMwMDAwMDAwMDEwRDE1MTIyMDEwMDAwMDAwMDAwODIwMjVDMDA4NDA3QTAwMDAwMDAwMzEwMTA5NTA1MDI0MDAwODAwMDlBMDMxNzA5MDY5QjAyRTgwMDlDMDEwMDVGMkEwMjA4NDA1RjM0MDEwMTlGMDIwNjAwMDAwMDAwMDUwMDlGMDYwN0EwMDAwMDAwMDMxMDEwOUYwOTAyMDA4QzlGMTAwNzA2MDEwQTAzQTA4MDAwOUYxMjBCNTY2OTczNjEyMDQzNzI2NTY0Njk3NDlGMUEwMjA4NDA5RjFFMDgzMjMwMzkzNDMxMzczMzMzOUYyMTAzMDYyODU1OUYyNjA4MUYxQ0Q1MTM0MDA2QjY1QjlGMjcwMTgwOUYzMzAzRTBCMEMwOUYzNDAzMUUwMzAwOUYzNTAxMjI5RjM2MDIwMDBDOUYzNzA0Q0ZFRjYwREM5RjM5MDEwNTlGNDAwNTcxMDBEMEI
+2017-09-05 18:43:10.479903-0500 PayGuardianTest[1399:1608091] <Auth><TransactionID>1234</TransactionID><RequestType>004</RequestType><ResponseCode>00000</ResponseCode><ResponseDescription>Successful Request</ResponseDescription><responseMessage><Token>1000000074180010</Token><ExpirationDate>1215</ExpirationDate><AuthorizationCode>660859</AuthorizationCode><ReferenceNumber /><AuthorizedAmount>500</AuthorizedAmount><OriginalAmount>500</OriginalAmount><GatewayTransID>232148904</GatewayTransID><GatewayMessage>A01 - Approved</GatewayMessage><InternalMessage>Approved: 660859 (approval code)</InternalMessage><GatewayResult>00000</GatewayResult><AVSMessage /><AVSResult /><CVMessage /><CVResult /><TransactionCode>1234</TransactionCode><TransactionDate>20170905</TransactionDate><RemainingAmount>0</RemainingAmount><IsoCountryCode>840</IsoCountryCode><IsoCurrencyCode>USD</IsoCurrencyCode><IsoTransactionDate>2017-09-05 19:43:09.893</IsoTransactionDate><IsoRequestDate>2017-09-05 19:43:09.893</IsoRequestDate><NetworkReferenceNumber /><MerchantCategoryCode /><NetworkMerchantId /><Netw
+2017-09-05 18:43:10.487015-0500 PayGuardianTest[1399:1608091] onBridgeCommTransactionSucceededWithResponse
+2017-09-05 18:43:10.487180-0500 PayGuardianTest[1399:1608091] Status: Responding to Card
+2017-09-05 18:43:10.487565-0500 PayGuardianTest[1399:1608091] setIssuerTagResponse: 8A023030
+2017-09-05 18:43:12.171573-0500 PayGuardianTest[1399:1608119] EMVTransactionConfirmed
+2017-09-05 18:43:12.171782-0500 PayGuardianTest[1399:1608119] Success
+2017-09-05 18:43:12.171879-0500 PayGuardianTest[1399:1608119] Generate EMV receipt with confirmation
+2017-09-05 18:43:12.172240-0500 PayGuardianTest[1399:1608119] Set receipt
+2017-09-05 18:43:12.172352-0500 PayGuardianTest[1399:1608119] Transaction completed with response code: 0
+2017-09-05 18:43:12.172462-0500 PayGuardianTest[1399:1608119] Succeeded with response
+2017-09-05 18:43:12.173410-0500 PayGuardianTest[1399:1608119] Deactivating reader
+2017-09-05 18:43:12.209456-0500 PayGuardianTest[1399:1608119] Status: Finished
+2017-09-05 18:43:12.209598-0500 PayGuardianTest[1399:1608119] DoIt.runOnCompletion()
+2017-09-05 18:43:12.209695-0500 PayGuardianTest[1399:1608119] DoIt weak   self = 0x170280c30
+2017-09-05 18:43:12.209802-0500 PayGuardianTest[1399:1608119] DoIt.DumpPGResponse
+2017-09-05 18:43:12.209909-0500 PayGuardianTest[1399:1608119]   Response Code: 0: Successful Request
+2017-09-05 18:43:12.210036-0500 PayGuardianTest[1399:1608119]   Reference Num:
+2017-09-05 18:43:12.210254-0500 PayGuardianTest[1399:1608119]   Authorization: 660859
+2017-09-05 18:43:12.210676-0500 PayGuardianTest[1399:1608119]   Card         : Visa  4***********0010
+2017-09-05 18:43:12.211426-0500 PayGuardianTest[1399:1608119]   AuthorizedAmt: 5
+2017-09-05 18:43:12.212099-0500 PayGuardianTest[1399:1608119]   XactStatusInf: E800
+2017-09-05 18:43:12.212672-0500 PayGuardianTest[1399:1608119]   AID/Entry/Lbl: A0000000031010 / Chip_Read / VISA CREDIT
+2017-09-05 18:43:12.213456-0500 PayGuardianTest[1399:1608119]   Card(receipt): Visa  4***********0010
+2017-09-05 18:43:12.213778-0500 PayGuardianTest[1399:1608119]   Card Holder  : TEST CARD 04
+2017-09-05 18:43:12.214203-0500 PayGuardianTest[1399:1608119]   Total Amt    : 5  [Invc#:1234]
+2017-09-05 18:43:12.214534-0500 PayGuardianTest[1399:1608119]   ReqSig/PINgot: Yes / No
+2017-09-05 18:43:12.214803-0500 PayGuardianTest[1399:1608119] DoIt.PGResponseCnv:ToFPGW
+2017-09-05 18:43:12.215290-0500 PayGuardianTest[1399:1608119]   runOnCompletion DONE -- 1.
+2017-09-05 18:43:15.504627-0500 PayGuardianTest[1399:1607975]   Break timeout loop -- PG callback set TRUE result.
+2017-09-05 18:43:22.150997-0500 PayGuardianTest[1399:1607975]  => DoIt Task loop done.
+2017-09-05 18:43:22.151160-0500 PayGuardianTest[1399:1607975] Exit - DoIt.ProcessCardRequest:ResponsePtr
+2017-09-05 18:43:22.151264-0500 PayGuardianTest[1399:1607975]  => call to DoIt processing is complete.
+2017-09-05 18:43:22.151355-0500 PayGuardianTest[1399:1607975] Exit - FPGWrapper.ProcessRequest:Response
+2017-09-05 18:43:22.151455-0500 PayGuardianTest[1399:1607975] ==> Final result: SUCCESS
